@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 04 Notes</title>
+    </head>
+    <body>
+        <h1>Apply for College</h1>
+        <form action="malito:ccfranco@syr.edu" method="POST">
+            <!-- action malito is going to send an email of our form data -->
+            <!-- post method is required with malito action -->
+            <!-- post sends form dara with website headers -->
+            <label for="firstname">Type your first name: </label>
+            <input type="text" name="firstname" id="firstname"><br>
+            <!-- the for attribute in label corresponds to the id attribute in input -->
+            <!--the values must be the same to associate the label with form field -->
+            <label for="comments">Comments?</label>
+            <textarea name="comments" id="comments" rows="10" cols="100">Type your comments here.</textarea><br>
+            <!--the only place whitespace matters in default text for text area -->
+            <p>Please choose your year in school</p>
+            <input type="radio" name="schoolyear" id="schoolyearfr" value="freshman">
+            <label for="schoolyearfr">freshman</label>
+            <input type="radio" name="schoolyear" id="schoolyearso" value="freshman">
+            <label for="schoolyearso">sophomore</label>
+            <input type="radio" name="schoolyear" id="schoolyearju" value="freshman">
+            <label for="schoolyearju">junior</label>
+            <input type="radio" name="schoolyear" id="schoolyearse" value="freshman">
+            <label for="schoolyearse">senior</label><br>
+            <!-- the value of for in label must be unique-->
+            <!-- the name of all the radio buttons must be the same-->
+            <!-- thats what links them all together-->
+            <input type="checkbox" name="veteran" id="veteran" value="Yes">
+            <label for="veteran">Veteran?</label>
+            <label for="start">When are you starting?</label>
+            <select name="start" id="start">
+                <option value="F21">Fall 2021</option>
+                <option value="S22">Spring 2021</option>
+            </select><br>
+
+            <input type="submit" value="Send Application">
+               
+
+        </form>
+    </body>
+</html>
