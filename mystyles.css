@@ -1,0 +1,32 @@
+h1{
+    color: #ff0000; 
+}
+
+
+
+a:link {
+    color: #00ff00;
+}
+
+a:visited{
+    color: #0000ff;
+}
+
+a:hover {
+    color: #8000ff;
+    background-color: #00eeff;
+}
+.lookdifferent:hover {color: #999;}
+
+body {
+    background-image: url(images/logo-sized.png.png);
+    background-size: 200 px; 
+    background-color: #c9c9ab;
+
+}
+p {background-color: #fff;
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid #0000ff;
+    
+}
