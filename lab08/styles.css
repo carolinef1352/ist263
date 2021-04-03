@@ -1,25 +1,21 @@
-body {font-family: Arial, Helvetica, sans-serif ;}
-h1,h2{color:aqua}
-.special{color:purple}
-h1{font-family: 2 em;}
-h2{font-family: 1.75 em;}
-a:link {color: pink;}
-body{
-    background-color: blue
+h1, h2, h3, caption, th {color:lightseagreen;}
+a:link {color:lightyellow;}
+body {
+    background-color: yellow;
 }
 nav{background-color:coral}
 nav a {color: beige}
 nav a:hover {color:green}
-
 p,tr,td,li,form {color:ivory}
 .quote {float:right;}
-.clear {clear:both}
-header {float: right}
+.clear {clear:both;}
+header {float: right;}
 header: {margin: 20 px;}
-.thirdbox, .fourthbox {background-color:lavender;
+.address {float:right;}
+.box1, .box2 {background-color:thistle;
 border-radius: 2em;
-margin:40 px;}
+margin: 40px;}
 .linkedin {width: 15%;}
-.fourthbox {display:flex}
-.firstbox, .secondbox, .thirdbox, .fourthbox {margin:10px;}
-
+.box2 {display:flex}
+.map, .form, .address, .email, {margin:10px;}
+.box1 {padding: 2em}
