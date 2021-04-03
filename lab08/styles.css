@@ -3,3 +3,23 @@ h1,h2{color:aqua}
 .special{color:purple}
 h1{font-family: 2 em;}
 h2{font-family: 1.75 em;}
+a:link {color: pink;}
+body{
+    background-color: blue
+}
+nav{background-color:coral}
+nav a {color: beige}
+nav a:hover {color:green}
+
+p,tr,td,li,form {color:ivory}
+.quote {float:right;}
+.clear {clear:both}
+header {float: right}
+header: {margin: 20 px}
+.thirdbox, .fourthbox {background-color:lavender;
+border-radius: 2em;
+margin:40 px;}
+.linkedin {width: 15%;}
+.fourthbox {display:flex}
+.firstbox, .secondbox, .thirdbox, .fourthbox {margin:10px;}
+
