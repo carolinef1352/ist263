@@ -15,7 +15,7 @@ p,tr,td,li,form {color:ivory}
 .quote {float:right;}
 .clear {clear:both}
 header {float: right}
-header: {margin: 20 px}
+header: {margin: 20 px;}
 .thirdbox, .fourthbox {background-color:lavender;
 border-radius: 2em;
 margin:40 px;}
