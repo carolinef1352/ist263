@@ -25,17 +25,24 @@
 
             @media only screen and (max-width: 600 px) {
                 body {background-color: orange;}
+                .sidebar {display: none;}
+                
 
             }
             /* media queries have special styles for certain size screens */
             /* 600 px is called a breakpoint */
+            @media only screen and (min-width: 920 px) {
+                body {background-color: blue;}
+            }
 
+            .maincontent {width: 70%; float: left;}
+            .sidebar {width: 20%; float: right; border: 1px solid orange;}
         </style>
     </head>
     <body>
 
         <h1>Flexbox</h1>
-
+        <div class="maincontent">
         <!-- large width banner image -->
         <img src="https://laferger.github.io/ist263/images/forever_orange.jpg" alt="large campus banner" class="banner">
 
@@ -56,6 +63,14 @@
                 <img src="https://laferger.github.io/ist263/images/ninety-percent-800x533.png" alt="80 percent">
                 <p>Positions related to Career Goals</p>
             </div>
+        </div>
+        </div>
+        <div class="sidebar">
+            <aside>
+                <h2>What does Tuition Cost?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    5</p>
+            </aside>
         </div>
 
     </body>
