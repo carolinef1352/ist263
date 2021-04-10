@@ -6,35 +6,28 @@ body {
 nav{background-color:coral}
 nav a {color: beige}
 nav a:hover {color:green}
+
 p,tr,td,li,form {color:ivory}
+
 .quote {float:right;}
 .clear {clear:both;}
 header {float: right;}
 header: {margin: 20 px;}
+
 .address {float:right;}
 .box1, .box2 {background-color:thistle;
-border-radius: 2em;
-margin: 40px;}
-.linkedin {width: 15%;}
-.box2 {display:flex}
+
+    border-radius: 2em;
+    margin: 40px;}
+.box1 {padding: 15px;}
+.box2 {padding: 15px;}
+.box2 {display: flex;}
 .map, .form, .address, .email, {margin:10px;}
-.box1 {padding: 2em; }
+.banner {max-width: 100%;}
+.box2 {flex-wrap: wrap;}
 
-.article00 {
-    float: left; background-color: pink; margin-left: 30 px}
-.article0 {
-    float: right; background-color: pink; margin-right:700px; 
-}
-.part1 {background-color: pink; margin: 30 px; padding: 10 px ; }
-.par2 {display: flex; margin: 30 px; }
-.article1 {flex: 1; order: 2; background-color: pink; border-}
-.article2 {flex: 1; order: 1; background-color: 
-.secondimage {max-width: 100%; float: right; }
-.firstimage {max-width: 100%; }
+@media only screen and (max-width: 600px)
+{nav a {display:block;}}
+nav a {width: 100%;}
 
-.part2 {flex-wrap: wrap; }
 
-@media only screen and (max-width: 600 px) {
-    nav a {max-width: 100; display: block; }
-    nav span {display: none;}
-}
