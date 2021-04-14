@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skills</title>
+        <link rel="stylesheet" href="/path/lab06/styles.css">
+<title> Skills</title> 
+<style>
+    table, th, td {border: 1px solid black;}
+            #skipbutton{
+                position: absolute;
+                left: -999px;
+                
+                background-color: white;
+                border: 1px solid black;
+            }
+            #skipbutton: focus {
+                position: absolute;
+                left: 10px; 
+            }
+</style>
+</head> 
+<body>
+    <table>
+        <caption>Characteristics</caption> 
+        <tr> 
+            <th>School</th>  
+            <th>Social</th>
+            <th>Athletics</th>
+        </tr>
+        <tr>
+            <td>Determined</td> 
+            <td>Outgoing</td>
+            <td>Lacrosse</td>
+        </tr>
+        <tr>
+                <td>Smart</td>
+                <td>Kind</td>
+                <td>Volleyball</td>
+            </tr>
+            <tr>
+                <td>Proactive</td>
+                <td>Talkative</td>
+                <td>Skiing</td>
+            </tr>
+            <tr>
+                <td>Dilligent</td>
+                <td>Funny</td>
+                <td>Running</td>
+            </tr>
+            <tr>
+                <td>Hard working</td>
+                <td>Comforting</td>
+                <td>Captain</td>
+            </tr>
+            <tr>
+                <td>Neat</td>
+                <td>Easy-going</td>
+                <td>Competitive</td>
+            </tr>
+            <tr>
+                <td>Collaborative</td>
+                <td>Helpful</td>
+                <td>Diliberate</td>
+            </tr>
+            <tr>
+                <td>Respectful</td>
+                <td>Loyal</td>
+                <td>Energized</td>
+            </tr>
+            <tr>
+                <td>Prepared</td>
+                <td>Willing to Share</td>
+                <td>In-Shape</td>
+            </tr>
+            <tr>
+                <td>Responsible</td>
+                <td>Creative</td>
+                <td>Tennis</td>
+            </tr>
+    </table>
+    <h1>Choose your favorite</h1>
+    <form action="malito:ccfranco@syr.edu" method="POST">
+        <label for="firstname">Type your first name: </label>
+        <input type="text" name="firstname" id="firstname"><br>
+        <label for="comments">Comments?</label>
+        <textarea name="comments" id="comments" rows="10" cols="100">Type your comments here.</textarea><br>
+        <p>Please choose the skill you think will be most beneficial to me</p>
+        <input type="radio" name="favorite" id="favoriteresp" value="responsible">
+        <label for="favoriteres">Responsible</label>
+        <input type="radio" name="favorite" id="favoriteki" value="kind">
+        <label for="favoriteki">Kind</label>
+        <input type="radio" name="favorite" id="favoritefu" value="fun">
+        <label for="favoritefu">Fun</label>
+        <input type="radio" name="favorite" id="favoriteres" value="respectful">
+        <label for="favoriteres">Respectful</label><br>
+    <br>
+
+    <input type="submit" value="Send Application">
+       
+
+</form>
+</body>
+</html>
