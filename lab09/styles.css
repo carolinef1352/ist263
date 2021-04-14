@@ -7,7 +7,7 @@ nav{background-color:coral}
 nav a {color: beige}
 nav a:hover {color:green}
 
-p,tr,td,li,form {color:ivory}
+p,tr,td,li,form {color:#000000;}
 
 .quote {float:right;}
 .clear {clear:both;}
@@ -15,7 +15,7 @@ header {float: right;}
 header: {margin: 20 px;}
 
 .address {float:right;}
-.box1, .box2 {background-color:thistle;
+.box1, .box2 {background-color:thistle;}
 
     border-radius: 2em;
     margin: 40px;}
