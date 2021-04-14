@@ -1,11 +1,11 @@
 h1, h2, h3, caption, th {color:lightseagreen;}
-a:link {color:lightyellow;}
+a:link {color: black;}
 body {
     background-color: yellow;
 }
 nav{background-color:coral}
-nav a {color: beige}
-nav a:hover {color:green}
+nav a {color: black;}
+nav a:hover {color:black;}
 
 p,tr,td,li,form {color:#000000;}
 
