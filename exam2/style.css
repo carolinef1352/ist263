@@ -1,0 +1,9 @@
+.box1 {
+    float: right;
+}
+.box2 {
+    float: left;
+}
+div {
+    clear: both;
+}
