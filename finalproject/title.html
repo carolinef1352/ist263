@@ -3,15 +3,39 @@
     <head>
         <meta charset="utf-8">
         <title>Ski Area Rankings</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            h1 {text-align: center;}
+            p{ text-align: center;}
+        </style>
     </head>
     <body>
         <nav>
         <a href="title.html">Home</a> <a href="sundayriver.html">Sunday River</a> <a href="sugarloaf.html">Sugarloaf</a> <a href="sugarbush.html">Sugarbush</a> <a href="greekpeak.html">Greek Peak</a>
         </nav>
     <h1>Ski Area Rankings</h1>
-    <header> <img src="sugarloaf.png" alt="heading"></header>
+    <div class="row">
+        <div class="column">
+            <img src="IMG_8581.jpg" alt="greek" style="width:100%">
+        </div>
+    <div class="column">
+        <img src="sundayriver.jpg" alt="peak" style="width:100%">
+    </div>
+    </div>
     <p>
-        Many skiers and snowboarders always hope to travel out West to get the best powder. However, I am biased in saying that the Northeast has the best skiing for those not lucky enough to be accustomed to the conditions out West. I will rate various mountains in the Northeast by level of difficulty, social scene, conditions, food, and I will provide recommendations for restaurants. Follow this webpage to see ratings and descriptions of my favorite locations! 
+        Many skiers and snowboarders always hope to travel out West to get the best powder. However, I am biased in saying that the Northeast has the best skiing for those not lucky enough to be accustomed to the conditions out West. I will rate various mountains in the Northeast by level of difficulty, social scene, conditions, food, and I will provide recommendations for restaurants. Follow this webpage to see ratings and descriptions of my favorite locations! In addition to this, below is a form to fill out to provide a better understanding of the type of mountain that you are looking for!
     </p>
+    <h2>What is your experience level?</h2>
+    <form>
+        <label for="firstname">Type your first name: </label><br>
+        <input type="text" name="firstname" id="firstname"><br>
+        <textarea name="comments" id="comments" rows="10" cols="100">Type your comments here.</textarea><br>
+        
+   
+
+    <input type="submit" value="Submit">
+       
+
+</form>
     </body>
 </html>
