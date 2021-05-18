@@ -13,12 +13,30 @@
             p{ text-align: center;}
             p {font-family: 'Playfair Display', serif;}
             h1, h2 {font-family: 'Playfair Display', serif;}
+            #image1 {padding-left: 20px; padding-right: 10px; padding-bottom: 10px; }
+            #image2 {padding-left: 20px; padding-right: 10px; padding-bottom: 20px;}
+            img {
+    float: left;
+    width:  50px;
+    height: 500px;
+    object-fit: cover;
+}
+img {
+    border: 5px solid #19242f;
+}
         </style>
+    <script>
+        function myFunction() {
+          document.getElementById("submit").innerHTML = "Thank you for your response!";
+        }
+        </script>
     </head>
     <body>
         <section>
         <nav>
-        <a href="title.html">Home</a> <a href="sundayriver.html">Sunday River</a> <a href="sugarloaf.html">Sugarloaf</a> <a href="sugarbush.html">Sugarbush</a> <a href="greekpeak.html">Greek Peak</a>
+            <div class="nav">
+        <a href="title.html">Home |</a> <a href="sundayriver.html">Sunday River |</a> <a href="sugarloaf.html">Sugarloaf |</a> <a href="sugarbush.html">Sugarbush |</a> <a href="greekpeak.html">Greek Peak |</a>
+            </div>
         </nav>
     </section>
 
@@ -28,10 +46,14 @@
 </header>
     <div class="row">
         <div class="column">
+            <div id="image1">
             <img src="IMG_8581.jpg" alt="greek" style="width:100%">
+            </div>
         </div>
     <div class="column">
+        <div id="image2">
         <img src="sundayriver.jpg" alt="peak" style="width:100%">
+    </div>
     </div>
     </div>
     <article>
@@ -44,17 +66,25 @@
         <header>
     <h2>What is your experience level?</h2>
 </header>
+<div id="submit">
     <form>
         <label for="firstname">Type your first name: </label><br>
         <input type="text" name="firstname" id="firstname"><br>
-        <textarea name="comments" id="comments" rows="10" cols="100">Type your comments here.</textarea><br>
-        
-   
-
-    <input type="submit" value="Submit">
-       
-
+        <textarea name="comments" id="comments" rows="10" cols="100">Type here.</textarea><br>
+    <button onclick="myFunction()">Submit</button>
+    </div>
 </form>
+</section>
+<section>
+    <footer>
+        <hr>
+        <div style="width: 200px; float: left; height: 100px; margin:10px;">
+        SKI THE EAST
+        </div>
+        <div style="width: 300px; float: right; height: 100px; margin:10px;">
+            "Know your limits. Ski beyond them."
+    </div class="clear">
+        </footer>
 </section>
     </body>
 </html>
